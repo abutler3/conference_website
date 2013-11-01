@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Watkins Art Conference</title>
+    <title>Watkins Art Conference -- Artists</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href='http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
     <!-- Bootstrap -->
@@ -15,7 +15,7 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body id="home">
+  <body id="artists">
 
 		<section class="container">
 			<div class="content row">
