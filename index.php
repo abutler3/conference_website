@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Watkins Art Conference</title>
+    <title>Roux Academy Conference</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href='http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
     <!-- Bootstrap -->
@@ -20,7 +20,7 @@
 		<section class="container">
 			<div class="content row">
 				<section class="main col col-lg-8">
-					
+					<?php include "_/components/php/header.php"; ?>	
 				</section><!-- main -->
 
 				<section class="sidebar col col-lg-4">
@@ -28,7 +28,7 @@
 				</section><!-- sidebar -->
 
 			</div> <!-- content -->
-
+		<?php include "_/components/php/footer.php"; ?>
 		</section> <!-- container -->
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
