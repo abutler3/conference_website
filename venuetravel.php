@@ -18,19 +18,23 @@
   <body id="venuetravel">
 
 		<section class="container">
-			<div class="content row">
+      <div class="content row">
         <?php include "_/components/php/header.php"; ?>
-				<section class="main col col-lg-8">
-				</section><!-- main -->
+        <section class="main col col-lg-8">
+          <?php include "_/components/php/article_venues.php"; ?>
 
-				<section class="sidebar col col-lg-4">
+        </section><!-- main -->
 
-				</section><!-- sidebar -->
+        <section class="sidebar col col-lg-4">
+          <?php include "_/components/php/aside_register.php"; ?>
+          <?php include "_/components/php/aside_lastyear.php"; ?>
+          <?php include "_/components/php/aside_abouttheartists.php"; ?>
+          <?php include "_/components/php/aside_accordion.php"; ?>
+        </section><!-- sidebar -->
 
-			</div> <!-- content -->
+      </div> <!-- content -->
     <?php include "_/components/php/footer.php"; ?>
-		</section> <!-- container -->
-
+    </section> <!-- container -->
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="_/js/bootstrap.js"></script>
     <script src="_/js/myscript.js"></script>

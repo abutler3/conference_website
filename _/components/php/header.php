@@ -39,13 +39,20 @@
   							<li><a tabindex="-1" href="artists.php#Constance_Smith">Constance Smith</a></li>
   							<li><a tabindex="-1" href="artists.php#Xhou_Ta">Xhou Ta</a></li>
   							<li><a tabindex="-1" href="artists.php#Richard_Tweed">Richard Tweed</a></li>
-								
+
 							</ul> <!-- dropdown-menu -->
 						</li>
 						<li><a href="register.php">Register</a></li>
     			</ul>
   			</div><!-- /.navbar-collapse -->
 			</section><!-- navbar -->
+        <!-- Modal -->
+      <section id="modal" class="modal fade">
+        <div class="modal-body">
+          <img id="modalimage" src="" alt="Modal Photo">
+        </div><!-- modal-body -->
+      </section><!-- modal -->
+
 		</header><!-- header -->
 	</div><!-- column -->
 </div><!-- content -->

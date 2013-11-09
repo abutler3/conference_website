@@ -25,11 +25,14 @@
 				<section class="main col col-lg-8">
           <?php include "_/components/php/article_intro.php"; ?>
           <?php include "_/components/php/article_abouttheartists.php"; ?>
+          <?php include "_/components/php/article_aboutthevenue.php"; ?>
 
 				</section><!-- main -->
 
 				<section class="sidebar col col-lg-4">
-
+          <?php include "_/components/php/aside_register.php"; ?>
+          <?php include "_/components/php/aside_lastyear.php"; ?>
+          <?php include "_/components/php/aside_accordion.php"; ?>
 				</section><!-- sidebar -->
 
 			</div> <!-- content -->
